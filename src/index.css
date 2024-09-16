@@ -1,68 +1,56 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap');@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Oswald:wght@200..700&family=SUSE:wght@100..800&display=swap');
+/* nav */
+.custom-navbar{
+background-color: rgb(235, 232, 229);
+height: 100px;
+
+}
+.contenido{
+ display: flex;
+}
+
+.custom-navbar .nav-link{
+  color: rgb(17, 16, 16);
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 24px;
+  margin: 0px 30px;
+  font-family: "Inria Sans", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+/* main */
+.imagen-Fondo{
+  background-image: url(https://www.gratistodo.com/wp-content/uploads/2021/12/Libros-Wallpapers-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;  
+  background-position: center; 
+  width: 100%;
+  height: 600px;
+}
+.subtitle{
+  color: rgba(255, 255, 255, 0.932);
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin: 50px;
+}
+
+.jacques-francois-shadow-regular {
+  font-family: "Jacques Francois Shadow", serif;
   font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  color: white;
+  font-size: 80px;
+  
+ 
+}
+.footer{
+  background-color: rgb(37, 30, 24);
+  width: 100%;
+  color: rgb(255, 252, 247);
+  height: 200px;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-}

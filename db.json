@@ -1,0 +1,18 @@
+{
+  "productos": [
+    {
+      "titulo": "ds",
+      "img": "dsdddddd",
+      "info": "sssssssfddffd",
+      "precio": "sdffdsfdssda",
+      "id": 23
+    },
+    {
+      "titulo": "Hola mundo",
+      "img": "una im",
+      "info": "fdssfds",
+      "precio": "233",
+      "id": 24
+    }
+  ]
+}
